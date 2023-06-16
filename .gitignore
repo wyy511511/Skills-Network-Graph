@@ -1,0 +1,15 @@
+# Ignore local history files
+.history
+
+# Ignore macOS specific file
+.DS_Store
+
+# Ignore node_modules directory
+node_modules/
+
+# Ignore build output
+dist/
+
+# Ignore IDE-specific files
+.idea/
+.vscode/
