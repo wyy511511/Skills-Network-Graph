@@ -1,13 +1,13 @@
 {
     "nodes": [
-        {"id": "PyTorch", "size": 7, "color": "#F67280"},
-        {"id": "iOS Development", "size": 4, "color": "#C06C84"},
-        {"id": "Mobile Dev", "size": 5, "color": "#6C5B7B"},
-        {"id": "Python", "size": 10, "color": "#355C7D"},
-        {"id": "NLP", "size": 9, "color": "#F8B195"},
-        {"id": "HCI", "size": 4, "color": "#99B898"},
-        {"id": "Accessibility", "size": 3, "color": "#FECEAB"},
-        {"id": "hahahhahahha", "size": 3, "color": "#FECEAA"},
+        {"id": "PyTorch", "size": 7, "color": "#F67280", "url": "https://pytorch.org/"},
+        {"id": "iOS Development", "size": 4, "color": "#C06C84", "url": "https://developer.apple.com/ios/"},
+        {"id": "Mobile Dev", "size": 5, "color": "#6C5B7B", "url": "https://developer.android.com/"},
+        {"id": "Python", "size": 10, "color": "#355C7D", "url": "https://www.python.org/"},
+        {"id": "NLP", "size": 9, "color": "#F8B195", "url": "https://www.nltk.org/"},
+        {"id": "HCI", "size": 4, "color": "#99B898", "url": "https://www.interaction-design.org/literature/topics/hci"},
+        {"id": "Accessibility", "size": 3, "color": "#FECEAB", "url": "https://www.w3.org/WAI/fundamentals/accessibility-intro/"},
+        {"id": "hahahhahahha", "size": 3, "color": "#FECEAA", "url": "https://www.example.com/"},
         {"id": "testcolor", "size": 3},
         {"id": "testcolor1111", "size": 3}
 

@@ -41,14 +41,23 @@
                 .selectAll("g")
                 .data(graph.nodes)
                 .enter().append("g");
-
+                
             var circles = node.append("circle")
                 .attr("r", function(d) { return d.size; })
                 .attr("fill", function(d) { return d.color; })
+                .on("click", function(d) {
+                    console.log("Clicked on node: ", d.id, d.url); // 输出点击的节点的id
+                    if (d.url) {
+                        console.log("Opening URL: ", d.url); // 输出即将打开的URL
+                        window.location.href = d.url; // 在当前窗口打开链接
+                    }
+                })
                 .call(d3.drag()
                     .on("start", dragstarted)
                     .on("drag", dragged)
                     .on("end", dragended));
+
+
 
             var labels = node.append("text")
                 .text(function(d) { return d.id; })
